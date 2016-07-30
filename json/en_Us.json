@@ -3,30 +3,31 @@
             "item1": "Home",
             "item2": "About",
             "item3": "Skills",
-            "item4": "Works",
-            "item5": "Education"
+            "item4": "Experience",
+            "item5": "Education",
+            "item6": "Certifications"
         },
     "about": {
-        "title": "Software Developer",
-        "description": "An in love of technology, always trying to improve his own skills. He has the ability and the required experience to design and execute informatics projects, either single or in a team. Characterized by be a person with a great sense of accountability and compromise with the assigned projects. Great ability to problem resolution and analysis. Someone that always tries to go beyond his tasks, looking for the best way to do the things.",
+        "title": "Software Engineer",
+        "description": "An in love of technology, always trying to improve my own skills. With the ability and the required experience to design and execute informatics projects, either single or in a team. I'm appreciated for be a person with a great sense of accountability and compromise with the assigned projects. Great ability to problem resolution and analysis. Someone that always tries to go beyond his tasks, looking for the best way to do the things.",
         "button": "Download CV"
-        
+
     },
     "web":{
-        "item1":"Experience working with FRONTEND technologies (HTML5, CSS3, JS, etc)",
-        "item2": "CSS frameworks (Materialize, Bootstrap, Foundation, etc)",
-        "item3":"JAVASCRIPT frameworks such as ANGULAR, REACTJS, METEOR, etc",
-        "item4":"Experience on MVC pattern or oriented services architectures (REST)",
-        "item5":"SCRIPT LANGUAGES, such as JSP, ASP .NET, RUBY, COLDFUSION, etc",
-        "item6":"Knowledge in CSS pre-processors (SASS, LESS, etc)"
+        "item1":"Experience working with FRONTEND technologies (HTML5, CSS3, JS)",
+        "item2": "CSS frameworks (Materialize, Bootstrap)",
+        "item3":"JAVASCRIPT Frameworks on different flavors (ANGULARJS, REACTJS)",
+        "item4":"Experience on MVC pattern or oriented services architectures (RESTful)"
     },
     "backend":{
-        "item1":"Experience developing systems using ORACLE FORMS",
-        "item2":"Wide knowledge on systems developed using JAVA EE, and different frameworks such as STRUTS2, JSF, SPRING, etc",
-        "item3": "Knowledge on another BACKEND languages, such as PHP, SCALA, DELPHI, C++, C#, PYTHON, VB .NET, etc",
-        "item4": "Knowledge on develop services based on NODEJS",
-        "item5": "Experience on different server applications (JBOSS, GLASSFISH, WEBLOGIC, etc)",
-        "item6": "Experience on reports, using technologies such as JASPER or ORACLE REPORTS BUILDER"
+        "item1": "Wide knowledge in systems JAVA EE by using different Frameworks (SPRING various flavors, JSF, STRUTS2)",
+        "item2": "Experience developing in PYTHON, RESTful services on different Frameworks, further of SCRIPTS automation",
+        "item3": "Experience in RESTful services developed by using RUBY",
+        "item4": "Experience developing RESTful services and module creation in NODEJS",
+        "item5": "Knowledge in other languages (PHP, SCALA, DELPHI, C++, C#)",
+        "item6": "Experience in different server applications (JBOSS, GLASSFISH, WEBLOGIC, etc)",
+        "item7": "Experience developing systems by using ORACLE FORMS",
+        "item8": "Experience in reports, by using technologies such as JASPER or ORACLE REPORTS BUILDER"
     },
     "db":{
         "item1":"Wide SQL knowledge on different databases",
@@ -36,14 +37,15 @@
     },
     "others":{
         "item1":"Advanced technical English",
-        "item2":"Great ability to problem resolution and analysis",
-        "item3": "Self-learning",
-        "item4": "Able to develop projects single or in a team",
-        "item5": "Experience on technical support (HARDWARE, SOFTWARE)",
-        "item6": "Wide knowledge on environments LINUX, WINDOWS and MAC OS"
+        "item2":"Experience working under development methods such as SCRUM and AGILE",
+        "item3":"Great ability to problem resolution and analysis",
+        "item4": "Self-learning",
+        "item5": "Able to develop projects single or in a team",
+        "item6": "Experience on technical support (HARDWARE, SOFTWARE)",
+        "item7": "Wide knowledge on environments LINUX, WINDOWS and MAC OS"
     },
     "work":{
-        "title": "Work Experience",
+        "title": "Experience",
         "rossmon":[
             {
                 "title":"Software Developer at Rossmon",
@@ -55,13 +57,13 @@
                 "title":"Software Developer at Rossmon",
                 "time": "2013 - 2014",
                 "project": "Project: Sistema de Activos y Pasivos Financieros (SAPF)",
-                "description": "System created for the control of financial assets and liabilities into the national company JASEC, as part of an Outsource project. Its main function was the creation of a system that allowed the financial department to keep track of the different assets and liabilities of the company, furthermore to connect it with the other financial modules. This project was developed using ORACLE technologies, so, knowledge on databases ORACLE (10g), ORACLE FORMS for the creation of the application and ORACLE REPORTS BUILDER for the reports, were required." 
+                "description": "System created for the control of financial assets and liabilities into the national company JASEC, as part of an Outsource project. Its main function was the creation of a system that allowed the financial department to keep track of the different assets and liabilities of the company, furthermore to connect it with the other financial modules. This project was developed using ORACLE technologies, so, knowledge on databases ORACLE (10g), ORACLE FORMS for the creation of the application and ORACLE REPORTS BUILDER for the reports, were required."
             }
         ],
         "snap":[
             {
                 "title":"Software Developer at Snap Technology",
-                "time": "2014 - Currently",
+                "time": "2014 - 2016",
                 "project": "Application Support Team",
                 "description1": "Responsible of the maintenance of the Snap App! Application, making tasks of DATA FIXING at database level, analysis of code and implement of code solutions in case of problems with the production environment.",
                 "description2": "On this team, I had the opportunity of automate some DATA FIXING process, making PL/pgSQL scripts, in order to facilitate recurring tasks and minimize the response time, allowing us to focus on others tasks. Also, this automation allowed minimize the learning time of the new members of the team, due to allow us to focus mostly on the business rules and the system architecture, setting aside the SQL.",
@@ -69,11 +71,20 @@
             },
             {
                 "title":"Software Developer at Snap Technology",
-                "time": "2014 - Currently",
+                "time": "2014 - 2016",
                 "project": "R&D Team (Research and Development)",
                 "description1": "Responsible of implementation of new technologies inside the company, furthermore the creation of improvements on the existing systems.",
                 "description2": "The main task is research about technologies that help on the company growth. On this team, I had the chance of take advantage of my knowledge about the company on the creation of new modules and functionalities. Of the predominant technologies in the company, we have JAVA, ANGULAR, POSTGRESQL, MONGODB, so, I had the opportunity to improve on these technologies."
             }
+        ],
+        "gl":[
+          {
+            "title":"Software Engineer at Gorilla Logic",
+            "time": "2016 - Currently",
+            "project": "IT Automation Processes",
+            "description1": "I worked for an american client called Digital Globe, that is a provider of high-resolution Earth imagery, furthermore of data and analytics. Inside the company there are a lot of systems in charge of different processes.",
+            "description2": "Working for this client I had to work in different languages and technologies, RESTful services, Security Libraries, Message broker systems, in languages such as JAVA by using SPRING, Python and Ruby. Be an adaptable person is the best skill that a company need."
+          }
         ]
     },
     "education":{
@@ -90,5 +101,14 @@
                 "title":"Bachelor Degree as Computer Engineering"
             }
         ]
+    },
+    "certs":{
+      "title":"Certifications",
+      "titles":[
+        {
+          "tech":"JAVA 7",
+          "description":"Oracle Certified Associate, JAVA SE 7 Programmer"
+        }
+      ]
     }
 }
