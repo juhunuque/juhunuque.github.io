@@ -215,11 +215,14 @@ nav .button-collapse i {
 }
 #about .profile-pic img {
     border-radius: 50%;
-    height: 150px;
-    margin-top: -70px;
-    vertical-align: middle;
-    width: 150px;
+    margin-top: -50px;
+    margin-left: -70px;
 }
+
+#about .profile-pic {
+				background: #29A3D2;
+}
+
 #about .intro-content {
     text-align: center;
 }

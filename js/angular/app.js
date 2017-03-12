@@ -3,10 +3,9 @@ var app = angular.module('resumeApp',['toastr']);
 
 
 app.controller('ResumeCtrl',['$scope','$http','toastr',function($scope,$http,toastr){
-    console.log("ResumeCtrl Init");
     $scope.isSpanish = false;
     $scope.lang = [];
-    
+
     function refreshData(){
         if($scope.isSpanish){
             //GET SPANISH VERSION
@@ -20,21 +19,20 @@ app.controller('ResumeCtrl',['$scope','$http','toastr',function($scope,$http,toa
                 $scope.lang = response.data;
               });
         }
-        
+
     };
-    
+
     refreshData();
 
     $scope.toggleLang = function(option){
         $scope.isSpanish = option;
         refreshData();
         if($scope.isSpanish){
-           toastr.success("Version en Español!"); 
+           toastr.success("Version en Español!");
         }else{
             toastr.success("English Version!");
         }
-        
+
     };
 
 }]);
-
